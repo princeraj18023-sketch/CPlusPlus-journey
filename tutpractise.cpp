@@ -3,9 +3,18 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
-    cout << "Enter the value of num1 and num2 " << endl;
-    cin >> num1 >> num2;
-    cout << "The value of sum of num1 and num2 is " << num1 + num2 << endl;
+    int n;
+    cout << "Enter the number :" << endl;
+    cin >> n;
+
+    if (n % 2 == 0)
+    {
+        cout << "Your number is even" << endl;
+    }
+    else
+    {
+        cout << "your number is odd" << endl;
+    }
+
     return 0;
 }
